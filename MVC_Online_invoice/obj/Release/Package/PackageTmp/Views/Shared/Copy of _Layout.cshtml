@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+     <title>:: Login :: INVOICE :: </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="../../Content/NewUI/data/menuzord.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/animate.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="../../Content/NewUI/data/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/sidebar.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/responsive.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/style-p.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/custum.css" type="text/css">
+    <link rel="stylesheet" href="../../Content/NewUI/data/bootst" type="text/css">
+    
+    <link href="../../Content/Site.css" rel="stylesheet" />
+    
+    <script src="../../Scripts/jquery-1.8.0.js"></script>
+    <script src="../../Scripts/jquery.validate.js"></script>
+    <script src="../../Scripts/jquery.validate.unobtrusive.js"></script>
+
+    <style>
+        body {
+            font-size: 18px;
+            font-family: Calibri;
+        }
+
+        .panel, .panel-body {
+            width: 100%;
+        }
+
+
+        #pwait {
+            opacity: 0.7;
+            background-color: #fff;
+            position: fixed !important;
+            width: 100%;
+            height: 100%;
+            top: 0px !important;
+            left: 0px !important;
+            z-index: 9999;
+            display: none;
+        }
+
+        th {
+            font-weight: normal;
+        }
+    </style>
+
+</head>
+<body>
+    <a href="#" id="totop"><i class="fa fa-chevron-up"></i><span>Top</span></a>
+    <div class="blog-masthead" style="background-color: #fff">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xs-12 col-sms-12 col-sm-11 col-md-11 col-lg-11" style="text-align: center;">
+                    <br />
+                    <img src="../../Content/NewUI/data/logoheading.jpg" style="min-width: 100px;" class="img-responsive">
+                    <br />
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sub-page-banner brdr_top5 brdr_top_clr1 horticulture-banner">
+    </section>
+    <div class="container">
+        <div class="row">
+
+            <div class="row">
+                <div class="col-md-12" style="text-align: center; vertical-align: middle">
+                    <nav class="col-xs-12 col-sms-12 col-sm-11 col-md-11 col-lg-11">
+                        <div id="menuzord" class="menuzord red menuzord-responsive">
+                            <a href="javascript:void(0)" class="showhide" style="display: none;"><em></em><em></em><em></em></a>
+                            <a href="javascript:void(0)" class="menuzord-brand m-brand">Navigation</a>
+                            @{Html.RenderAction("Deshboard", "Shared");}
+                           
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="sub-page-banner brdr_top5 brdr_top_clr1 horticulture-banner">
+    </section>
+
+    <div class="container" style="min-height: 300px;">
+        <div class="row">
+            <div class="col-xs-12 col-sms-12 col-sm-12 col-md-12 col-lg-12" style="text-decoration-color: red">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row no-margin">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="footer-widget">
+                            <div class="contact-widget">
+                                <h5 class="botom-g">Invoice</h5>
+                                <p style="text-transform: none">
+                                    Best viewed in 1024*768 resolution with Mozilla Firefox/IE8+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <div id="pwait">
+        <img src="~/Content/Ajaximages/loading.gif" style="padding: 10px; height: auto; width: auto; top: 48%; left: 48%; position: fixed; z-index: 200; opacity: 0.7; color: #ffffff;" />
+    </div>
+
+    <script async="" src="../../Content/NewUI/data/analytics.js"></script>
+    <script type="text/javascript" src="../../Content/NewUI/data/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../../Content/NewUI/data/menuzord.js"></script>
+    <link href="../../Content/jquery-ui.css" rel="stylesheet" />
+    <script src="../../Scripts/calenderscript.js"></script>
+    <script type="text/javascript" src="../../Content/NewUI/data/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../Content/NewUI/data/script.js"></script>
+    <script type="text/javascript">
+        $("#DOB,#Increament_date,#billdate,#vindt,#vinsancdt,#sanctiondate,#Joining_date,#OfferDate,#JoiningBefore,#Issuedate,#frmdate,#todate,#joinigDate").attr( 'readOnly' , 'true' );
+        $("#DOB,#Increament_date,#billdate,#vindt,#vinsancdt,#sanctiondate,#Joining_date,#OfferDate,#JoiningBefore,#Issuedate,#frmdate,#todate,#joinigDate").datepicker({ minDate: "01/01/1949", maxDate: @DateTime.Now.ToString("dd/mm/yyyy"),changeMonth: true,changeYear: true});
+        //$("#DOB").datepicker({ minDate: new Date(1949, 1, 1), chageMonth: true, changeYear: true });
+       
+        $("#Logo,#Sign").change(function () {
+            if ($(this).val() != '' && validateFileTypeImage($(this).val())) {
+                if (($(this)[0].files[0].size / 1024) > 2048) {
+                    alert('File size exceeded from minimum file size (1kb) and max file size (2048KB)');
+                    $(this).val('');
+                }
+                else if (($(this)[0].files[0].size / 1024) < 1) {
+                    alert('File size exceeded from minimum file size (1kb) and max file size (2048KB)');
+                    $(this).val('');
+                }
+            }
+            else {
+                alert('Logo And Signature should be in .gif,.jpg,.jpeg,.png formate  ');
+                $(this).val('');
+            }
+        });
+
+        function validateFileTypeImage(value) {
+            value = value.toString().split('').reverse().join('');
+            value = value.substring(0, value.indexOf('.'));
+            value = value.split('').reverse().join('');
+            value = value.toLowerCase();
+            if (value == 'gif' || value == 'jpg' || value == 'jpeg' || value == 'png') {
+                return true;
+            }
+            return false;
+        }
+
+        jQuery(document).ready(function () {
+            jQuery("#menuzord").menuzord({
+                effect: "drop-up",
+                animation: "none",
+                indicatorFirstLevel: "",
+                indicatorSecondLevel: ""
+            });
+        });
+
+        var windowScroll_t;
+        jQuery(window).scroll(function () {
+            clearTimeout(windowScroll_t);
+            windowScroll_t = setTimeout(function () {
+                if (jQuery(this).scrollTop() > 100) {
+                    jQuery('#totop').fadeIn();
+                } else {
+                    jQuery('#totop').fadeOut();
+                }
+            }, 500);
+        });
+        jQuery('#totop').click(function () {
+            jQuery('html, body').animate({ scrollTop: 0 }, 600);
+            return false;
+        });
+
+        $(document).ready(function () {
+            $("form").submit(function (e) {
+                // $("#pwait").show();
+
+            });
+
+            return;
+        });
+
+    </script>
+
+</body>
+</html>

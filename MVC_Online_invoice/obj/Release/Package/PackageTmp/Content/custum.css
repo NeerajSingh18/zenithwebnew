@@ -1,0 +1,14 @@
+﻿.left {
+    text-align:left;
+}
+.right, .right th,.right td {
+    text-align:right;
+}
+
+.center, .center th,.center td {
+    text-align:center;
+}
+
+.red {
+    color:red;
+}

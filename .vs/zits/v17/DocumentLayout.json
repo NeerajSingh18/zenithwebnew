@@ -1,0 +1,144 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\content\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\content\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\account\\ourserviceinfra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\account\\ourserviceinfra.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\shared\\infrapagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\shared\\infrapagelayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\account\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\account\\product.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\account\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\account\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|c:\\users\\neeraj\\documents\\1gnm_project\\zitsweb\\mvc_online_invoice\\views\\account\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6D4AEDB6-989F-4FBC-A599-80DFFADC8D9D}|MVC_Online_invoice\\zits.csproj|solutionrelative:mvc_online_invoice\\views\\account\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Content\\css\\style.css",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Content\\css\\style.css",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Content\\css\\style.css",
+              "RelativeToolTip": "MVC_Online_invoice\\Content\\css\\style.css",
+              "ViewState": "AgIAAHsKAAAAAAAAAAAQwIgKAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-08T10:15:30.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Product.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Product.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Account\\Product.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Product.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Account\\Product.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T10:45:10.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "infrapagelayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Shared\\infrapagelayout.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Shared\\infrapagelayout.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Shared\\infrapagelayout.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Shared\\infrapagelayout.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAwGEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T10:38:59.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Clients.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Clients.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Account\\Clients.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Clients.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Account\\Clients.cshtml",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAHUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T11:21:47.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Default.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Account\\Default.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\Default.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Account\\Default.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T11:14:17.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T11:09:13.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ourserviceinfra.cshtml",
+              "DocumentMoniker": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\ourserviceinfra.cshtml",
+              "RelativeDocumentMoniker": "MVC_Online_invoice\\Views\\Account\\ourserviceinfra.cshtml",
+              "ToolTip": "C:\\Users\\Neeraj\\Documents\\1gnm_project\\ZITSweb\\MVC_Online_invoice\\Views\\Account\\ourserviceinfra.cshtml",
+              "RelativeToolTip": "MVC_Online_invoice\\Views\\Account\\ourserviceinfra.cshtml",
+              "ViewState": "AgIAAFkCAAAAAAAAAAAQwGkCAADxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T09:42:45.871Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

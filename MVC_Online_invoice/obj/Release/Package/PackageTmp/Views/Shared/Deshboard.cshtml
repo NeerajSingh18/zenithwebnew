@@ -1,0 +1,26 @@
+﻿@{
+    Layout = null;
+}
+
+<ul class="menuzord-menu menuzord-indented scrollable">
+    <li>
+        <a href="#" data-toggle="collapse" data-target="#" style="color: #CF0101; font-size: 14px; font-weight: bold">Deshboard</a>
+    </li>
+    <li>
+        <a href="#" data-toggle="collapse" data-target="#" style="color: #CF0101; font-size: 14px; font-weight: bold">Master</a>
+        <ul class="dropdown" style="right: 0px;">
+            <li><a href="../Master/Company">Company</a></li>
+            <li><a href="../Master/View_Branch_Details">Branch</a></li>
+            <li><a href="../Master/View_User_Details">User</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="#" data-toggle="collapse" data-target="#edropdownReport" style="color: #CF0101; font-size: 14px; font-weight: bold">Utility <span class="fa arrow"></span></a>
+        <ul class="dropdown" style="right: 0px;">
+            <li><a href="#">@ViewBag.Name</a>               </li>
+            <li><a href="#">UserRole: @ViewBag.Role</a></li>
+            <li>@Html.Partial("_LoginPartial", "Shared") </li>
+        </ul>
+    </li>
+</ul>

@@ -1,0 +1,156 @@
+﻿#itbox, #infrabox {
+    width: 100%; /* Make them take full width of their parent */
+    min-height: 350px; /* Increase height for larger screens */
+    padding: 50px; /* Add padding inside the boxes */
+    margin-top: 100px; /* Add margin from the top to prevent overlap */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Ensure responsiveness */
+@media (min-width: 992px) {
+    #itbox, #infrabox {
+        min-height: 450px; /* Further increase height on large screens */
+        padding: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+    #itbox, #infrabox {
+        min-height: 250px; /* Adjust height for mobile */
+        padding: 30px;
+    }
+}
+
+/* =====================================info and errors ==============================================*/
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+   text-decoration:initial;
+   font-size:14px;
+  display:block;
+    /*font-weight: bold;*/
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #e80c4d;  
+    font-size: 12px;
+}
+
+.validation-summary-errors>ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.validation-summary-errors>ul {
+  position: relative;
+    display: block;
+
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+/* tables
+----------------------------------------------------------
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 0.75em;
+    border: 0 none;
+}
+
+th {
+    font-size: 1.2em;
+    text-align: left;
+    border: none 0px;
+    padding-left: 0;
+}
+
+    th a {
+        display: block;
+        position: relative;
+    }
+
+    th a:link, th a:visited, th a:active, th a:hover {
+        color: #333;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0;
+    }
+
+    th a:hover {
+        color: #000;
+    }
+
+    th.asc a, th.desc a {
+        margin-right: .75em;
+    }
+
+    th.asc a:after, th.desc a:after {
+        display: block;
+        position: absolute;
+        right: 0em;
+        top: 0;
+        font-size: 0.75em;
+    }
+
+    th.asc a:after {
+        content: '▲';
+    }
+
+    th.desc a:after {
+        content: '▼';
+    }
+
+td {
+    padding: 0.25em 2em 0.25em 0em;
+    border: 0 none;
+}
+
+tr.pager td {
+    padding: 0 0.25em 0 0;
+}*/
+
