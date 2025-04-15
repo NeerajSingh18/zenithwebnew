@@ -9,7 +9,9 @@
 /*--------------------------------------------------------------
 # body
 --------------------------------------------------------------*/
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     background: #fff;
     color: #666666;
@@ -1298,7 +1300,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form .validation {
-  color: red;
+  color: black;
   display: none;
   margin: 0 0 20px;
   font-weight: 400;
@@ -1307,7 +1309,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .form input, #contact .form textarea {
   padding: 10px 14px;
-  border-radius: 0;
+  border-radius: 12px;
   box-shadow: none;
   font-size: 15px;
 }
@@ -1324,6 +1326,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #13a456;
 }
+
+.anchor-section {
+    position: relative;
+}
+
+    .anchor-section::before {
+        content: "";
+        display: block;
+        height: 63px; /* Adjust based on your navbar height */
+    }
+
 
 /*--------------------------------------------------------------
 # Footer
@@ -1486,6 +1499,35 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
+
+.footer-links a {
+    color: #555; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: 500;
+    position: relative; /* Set relative positioning for the pseudo-element */
+    transition: color 0.3s ease;
+}
+
+    .footer-links a:hover {
+        color: #fc083e; /* Change color on hover */
+    }
+
+    .footer-links a::after {
+        content: ''; /* Empty content for the pseudo-element */
+        position: absolute; /* Absolute positioning relative to the link */
+        bottom: 0; /* Align at the bottom of the link */
+        left: 0; /* Align to the left of the link */
+        width: 0; /* Start with no width */
+        height: 2px; /* Line height */
+        background-color: #fc083e; /* Line color */
+        transition: width 0.3s ease; /* Smooth transition for width */
+    }
+
+    .footer-links a:hover::after {
+        width: 100%; /* Expand the line to full width on hover */
+    }
+
 .container.other-page {
     margin-top: 110px;
 }
@@ -1986,6 +2028,7 @@ association section
     left: 0;
     top: 0;
     right: 0;
+
     transition: all 0.5s;
     z-index: 997;
     background: rgba(233,86,61, 0.8);
@@ -2001,7 +2044,7 @@ association section
     }
 
     #header1 #logo1 {
-        float: left;
+        float: inherit;
         color: #fff;
     }
 
@@ -2046,6 +2089,8 @@ association section
         max-height: 40px;
     }
 }
+
+
 
 #logo1 {
     display: flex;
@@ -2633,51 +2678,62 @@ association section
 
 
 /* CSS for Clients page*/
-
-
-
 .client-box {
-    width: 100%;
-    height: 150px; /* Fixed height */
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    height: 140px; /* Set your preferred height here */
+    transition: all 0.3s ease-in-out;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    transition: transform 0.2s ease;
-    font-weight: 9000; /* Makes it bolder */
-    font-size: 18px; /* Increases the font size */
-    letter-spacing: 1px;
+    justify-content: flex-start;
+    overflow: hidden; /* Prevent overflow if content is long */
+}
+
+.client-abbr {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #ff6b8b;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: block;
+    text-align: center;
+    width: fit-content;
 }
 
     .client-box:hover {
+        background: #eef5ff; /* Light blue shade on hover */
         transform: translateY(-3px);
-        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
     }
 
-    .client-box a, .client-box p {
-        font-size: 14px;
-        color: #333;
+    .client-box a,
+    .client-box p {
         margin: 0;
+        padding: 0;
         text-decoration: none;
-        font-weight: 500;
+        color: inherit;
+        font-weight: 700; /* Also bold */
+        font-size: 16px;
     }
 
         .client-box a:hover {
-            color: #007bff;
+            color: #0056b3;
         }
+
+
 
 .section-header h3 {
     text-align: center;
     font-size: 28px;
-    margin-bottom: 30px;
-    font-weight: 600;
+    margin-bottom: 18px;
+    font-weight: 700;
 }
-
 
 @media (min-width: 768px) {
     .container.other-page {
@@ -2685,7 +2741,6 @@ association section
         padding-right: 60px;
     }
 }
-
 
 /* css for navbar hamburger */
 
@@ -2745,31 +2800,132 @@ association section
 }
 
 
-/* ReACH OUT BUTTON CSS
-*/
-
-.reach-btn {
-    background-color: #007bff;
-    color: #fff;
-    padding: 14px 30px;
-    font-size: 18px;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-    .reach-btn:hover {
-        background-color: #0056b3;
-        transform: scale(1.05);
-    }
-
-
 
 .section-header p {
     text-align: left; /* Ensures the paragraph text starts from the left */
     margin-left: 0; /* Ensures no extra left margin is added */
     margin-right: 0; /* Ensures no extra right margin is added */
     margin-bottom: 1px;
+}
+
+
+
+
+
+
+/* Form Container */
+.form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #4b2ad3;
+}
+
+.contactForm .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contactForm label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.contactForm input[type="text"],
+.contactForm input[type="email"],
+.contactForm textarea {
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease-in-out;
+}
+
+    .contactForm input:focus,
+    .contactForm textarea:focus {
+        border-color: #7c4dff;
+        background-color: #fff;
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(124, 77, 255, 0.2);
+    }
+
+.contactForm ::placeholder {
+    color: #999;
+}
+
+.validation {
+    font-size: 14px;
+    color: #e74c3c;
+    margin-top: 5px;
+    display: block;
+}
+
+#sendmessage {
+    display: none;
+    color: #2ecc71;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#errormessage {
+    display: none;
+    color: #e74c3c;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contactForm button[type="submit"] {
+    background: linear-gradient(135deg, #7c4dff, #651fff);
+    color: #fff;
+    padding: 14px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 6px 20px rgba(124, 77, 255, 0.3);
+}
+
+    .contactForm button[type="submit"]:hover {
+        background: linear-gradient(135deg, #651fff, #7c4dff);
+        transform: scale(1.05);
+    }
+
+
+
+
+/* CSS for products page */
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .section-header h3 {
+        font-size: 1.6rem;
+    }
+
+    .anchor-section {
+        padding: 20px;
+    }
+
+        .anchor-section h3 {
+            font-size: 1.3rem;
+        }
+
+    .general-info li {
+        font-size: 0.95rem;
+    }
 }

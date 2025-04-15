@@ -2,7 +2,126 @@
     ViewBag.Title = "Default";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<style>
 
+
+
+    /* Products Section Header */
+    h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2c3e50;
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+
+    /* Container for the product links */
+    .course_demo {
+        background-color: #f9f9f9;
+        padding: 20px 80px 20px 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        margin-bottom: 30px;
+    }
+
+        /* Paragraph with links */
+        .course_demo p {
+            font-size: 1.05rem;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Product links */
+        .course_demo a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 8px;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+
+            /* Hover effect */
+            .course_demo a:hover {
+                color: #1d6fa5;
+            }
+
+            .course_demo a::after {
+                content: '';
+                position: absolute;
+                width: 0%;
+                height: 2px;
+                background-color: #1d6fa5;
+                bottom: -3px;
+                left: 0;
+                transition: width 0.3s ease;
+            }
+
+            .course_demo a:hover::after {
+                width: 100%;
+            }
+
+/* Section Header Styling */
+.section-header h3 {
+    text-align: center;
+    font-size: 2.2rem; /* Bigger text */
+    font-weight: 700;
+    color: #2c3e50;
+    text-decoration: underline; /* Underline the heading */
+    margin-bottom: 40px;
+}
+
+/* Section content box */
+.anchor-section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Section heading inside content */
+.anchor-section h3 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #3498db;
+    text-decoration: underline; /* Underline section headings */
+    margin-bottom: 20px;
+}
+
+/* Paragraph content */
+.anchor-section p {
+    font-size: 1rem;
+    color: #444;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Key Features List */
+.general-info {
+    list-style-type: disc;   /* Show black dots */
+    padding-left: 20px;      /* Proper spacing for bullets */
+    margin-top: 20px;
+    color: #555;
+}
+
+.general-info li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+    /* Hover effect for sections */
+    .anchor-section:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        transform: translateY(-5px);
+    }
+
+/* Responsive for mobile */
+
+
+
+</style>
 <section id="contact" class="section-bg wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
     <div class="container other-page">
 
@@ -18,17 +137,19 @@
 
         <div class="row">
             <div class="col-md-12">
-              
-                    <h3>Products</h3>
-                    <div class="course_demo">
-                        <p style="text-align: justify;">Library Managaement Software | College/School Management Software | E-Governance Software | Payroll Management Software | Credit Co-Operative Society                            </p>
 
-                    </div>
-             
+                <h3>Products</h3>
+                <div class="course_demo">
+                    <p style="text-align: justify;">
+                        <a href="#lib">Library Management Software</a> |
+                        <a href="#cms">College/School Management Software</a> |
+                        <a href="#gov">E-Governance Software</a> |
+                        <a href="#pms">Payroll Management Software</a> |
+                        <a href="#ccs">Credit Co-Operative Society</a>
+                    </p>
+                </div>
 
-
-
-                <div id="lib">
+                <div id="lib" class="anchor-section">
                     <h3 style="margin-top: 10px;"><b>Library Management Software </b></h3>
                     <div class="course_demo">
                         <p style="text-align: justify;">Library Management System is a comprehensive library management solution that is suitable for both large and small libraries. Library Management System to be installed in a range of Library organizations, ranging from public libraries,through to academic,joint use and special libraries.           </p>
@@ -58,7 +179,7 @@
 
                 </div>
 
-                <div id="cms">
+                <div id="cms" class="anchor-section">
                     <h3 style="margin-top: 10px;"><b>College / School Management Software </b> </h3>
                     <div class="course_demo">
                         <p style="text-align: justify;">School / College Management system that helps Schools / Colleges to automate various critical operations like admissions, fee management, managing student records, examination and results management.       </p>
@@ -81,7 +202,7 @@
                     </ul>
                 </div>
 
-                <div id="gov">
+                <div id="gov" class="anchor-section">
                     <h3 style="margin-top: 10px;"><b>E - Governance</b> </h3>
                     <div class="course_demo">
                         <p style="text-align: justify;">eGovernance Portal is a software basically made for reducing the work complexity of Nagarpalika. Nagarpalika which are not using software for their work ,facing difficulties in different types of report generation of birth, death and marriage manually. This software is made after deep analysis of different Nagarpalika, so it will surely help in reducing the complexities and time in report generation and the record keeping will also become easy.       </p>
@@ -108,7 +229,7 @@
                 </div>
 
 
-                <div id="pms">
+                <div id="pms" class="anchor-section">
                     <h3 style="margin-top: 10px;"><b>Payroll Management Software</b></h3>
                     <div class="course_demo">
                         <p style="text-align: justify;">We are involved in offering Payroll Software for business organizations. The software offered by us is designed for enterprises to meets the simple and complex payroll needs.  </p>
@@ -139,7 +260,7 @@
                 </div>
 
 
-                <div id="ccs">
+                <div id="ccs" class="anchor-section">
                     <h3 style="margin-top: 10px;"><b>Credit Co-Operative Society Software </b></h3>
                     <div class="course_demo">
                         <p style="text-align: justify;">Credit Co-Operative Society Software is a Multi State, Multi User, Mult Branches Credit Co-operative Society Software built especially for Multi State Credit Co-Operative Societies with Automatic posting of business data to accounts module. Credit Co-Operative Society Software is a .NET based centralized database online software for Multi State Credit Co-Operative Societies with core banking operations such Fixed Deposit, Recurring Deposits, Daily Deposit Schemes, Loan to Customers, Monthly Income Schemes, Dividend declarations etc.   </p>
@@ -147,17 +268,16 @@
                     <h4 style="margin-top: 6px;">Key features </h4>
                     <ul class="general-info">
 
-                        <li><i class="fa fa-globe"></i>
-                            Credit Co-Operative Society Software handles all Saving A/c, Current A/c operations such as Deposit &amp; Withdrawal in Savings &amp; Current Accounts, Daily Monthly Deposit,Passbook Printing ,Interest Calculations, Printing of Computerized Fixed Deposit Certificates and Renewal Receipts. Credit Co-Operative Society Software handles management of Cheque book and Pass book. SocietyBiz handles all kind of Loan operations, Printing Loan Ledger, Automatic Interest Calculations. Credit Co-Operative Society Software has integrated General Accounting Module with Cash-Bank Book, Journal Entries, General Ledgers, Trial Balance, Day Book, Fund Flow Statements etc., Fully secured database with role based security implementations. 
+                        <li>
+                            <i class="fa fa-globe"></i>
+                            Credit Co-Operative Society Software handles all Saving A/c, Current A/c operations such as Deposit &amp; Withdrawal in Savings &amp; Current Accounts, Daily Monthly Deposit,Passbook Printing ,Interest Calculations, Printing of Computerized Fixed Deposit Certificates and Renewal Receipts. Credit Co-Operative Society Software handles management of Cheque book and Pass book. SocietyBiz handles all kind of Loan operations, Printing Loan Ledger, Automatic Interest Calculations. Credit Co-Operative Society Software has integrated General Accounting Module with Cash-Bank Book, Journal Entries, General Ledgers, Trial Balance, Day Book, Fund Flow Statements etc., Fully secured database with role based security implementations.
                         </li>
 
 
 
                     </ul>
                 </div>
-                 <div id="ccs1">
-                    <h3 style="margin-top: 10px;"><a href="../companyprofile.pdf" target="_blank">...</a>  </h3>
-                   </div>
+       
 
 
             </div>
